@@ -1,0 +1,243 @@
+/* Shared properties across all screen sizes */
+
+body {
+  background-color: #f6f6f6;
+}
+
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url(fonts/RobotoSlab-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Muli Black";
+  src: url(fonts/Muli-Black.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Muli Semibold";
+  src: url(fonts/Muli-Black.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+h3 {
+  color: #bebebe;
+  font-family: "Roboto Slab Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+
+h1 {
+  color: #27198c;
+  font-family: "Muli Black", sans-serif;
+  font-weight: 900;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  line-height: 1.8;
+  font-size: 1.2em;
+}
+
+.button1,
+.button2 {
+  font-family: "Muli Black", sans-serif;
+  letter-spacing: 1px;
+  background-color: #f6f6f6;
+  color: #27198c;
+  border: 1px solid #fe7010;
+  font-weight: 900;
+  vertical-align: top;
+  margin: 20px -6px 70px 20px;
+  text-align: left;
+  padding-left: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.button1:hover,
+.button2:hover {
+  cursor: pointer;
+}
+
+.buttonsvg1,
+.buttonsvg2 {
+  margin-top: 20px;
+  border: 0;
+  padding: 0;
+  background-color: #fe7010;
+}
+
+.buttonsvg1:hover,
+.buttonsvg2:hover {
+  cursor: pointer;
+}
+
+span.plus1,
+span.plus2 {
+  background: url(assets/plus.svg) no-repeat top left;
+  background-size: contain;
+  background-color: #fe7010;
+  cursor: pointer;
+  display: inline-block;
+  height: 34%;
+  width: 34%;
+}
+
+.leftimage {
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 96%; /* 100% includes gutter as slides.css display for * is border-box */
+}
+
+.mediamix .leftimage {
+  width: 100%;
+}
+
+.rightimage {
+  max-width: 200%;
+}
+
+.mediapic .rightimage {
+  width: 96%;
+}
+
+/* Grid positioning of elements by grid-area */
+.sectionHead {
+  grid-area: head;
+}
+
+.article {
+  grid-area: article;
+}
+
+.mediamix {
+  grid-area: mediamix;
+}
+
+.list1 {
+  grid-area: list1;
+}
+
+.list2 {
+  grid-area: list2;
+}
+
+.list3 {
+  grid-area: list3;
+}
+
+.list4 {
+  grid-area: list4;
+}
+
+.mediapic {
+  grid-area: mediapic;
+}
+
+.orderedlist {
+  font-family: "Muli Black", sans-serif;
+  font-weight: 400;
+  color: #e5e5e5;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  line-height: 94%;
+}
+
+.placeholder {
+  width: 48%;
+  height: auto;
+}
+
+.placetitle {
+  font-family: "Roboto Slab Bold";
+  color: #27198c;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.mobileButton {
+  display: none;
+}
+
+.slideshow-container {
+  display: none;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1920px) {
+  .content {
+    display: grid;
+    grid-template-columns: 20px 4fr 1fr 1fr 1fr 1fr 20px;
+    grid-template-rows: 20px 70px 300px 1400px;
+    grid-column-gap: calc(5px + (30 - 5) * ((100vw - 320px) / (1920 - 320)));
+    grid-row-gap: 30px;
+    grid-template-areas:
+      ". . . . . . ."
+      ". head head head head head ."
+      ". article list1 list2 list3 list4 ."
+      ". mediamix mediapic mediapic mediapic mediapic .";
+  }
+
+  h3 {
+    font-size: calc(19px + (24 - 19) * ((100vw - 992px) / (1920 - 992)));
+  }
+
+  h1 {
+    font-size: calc(27px + (37 - 27) * ((100vw - 992px) / (1920 - 992)));
+    line-height: 1.5;
+  }
+
+  .paragraph {
+    font-size: calc(16px + (19 - 16) * ((100vw - 992px) / (1920 - 992)));
+  }
+
+  .button1,
+  .button2 {
+    width: 20%;
+    height: 64px;
+    font-size: 0.9em;
+  }
+
+  .buttonsvg1,
+  .buttonsvg2 {
+    width: 64px;
+    height: 64px;
+  }
+
+  .leftimage {
+    margin-bottom: 50px;
+  }
+
+  .rightimage {
+    margin-bottom: 45px;
+  }
+
+  .orderedlist {
+    font-size: calc(36px + (64 - 36) * ((100vw - 992px) / (1920 - 992)));
+  }
+
+  .placeholder {
+    margin-left: calc(20px + (40 - 20) * ((100vw - 992px) / (1920 - 992)));
+  }
+
+  .placetitle {
+    font-size: calc(12px + (16 - 12) * ((100vw - 992px) / (1920 - 992)));
+    line-height: calc(32px + (32 - 28) * ((100vw - 992px) / (1920 - 992)));
+  }
+}
