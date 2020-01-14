@@ -45,7 +45,7 @@ The following website was designed on InvisioApp. My task as a coder was to make
 
 ## End Result
 
-https://github.com/josephcheok/FrontEndDevTestv2
+https://josephcheok.github.io/FrontEndDevTestv2/
 
 1. A very mobile responsive website that does not look odd in any of the screen sizes between 320 to 1920 px.
 
