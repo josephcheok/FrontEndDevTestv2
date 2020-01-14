@@ -4,24 +4,28 @@ The following website was designed on InvisioApp. My task as a coder was to make
 
 ## Invision Design
 
-Desktop:
+### Desktop (1920px)
+
 ![alt text][desktop]
 
-Laptop:
+### Laptop (1366px)
+
 ![alt text][laptop]
 
-Tablet:
-![alt text][tablet]
+### Tablet (768px)
 
-Mobile:
-![alt text][mobile]
+<img src="Invision/Tablet-768px.png" width="350">
 
-StyleGuide:
+### Mobile (375px)
+
+<img src="Invision/Mobile-375px.png" width="200">
+
+### Style Guide
+
 ![alt text][styleguide]
 
 [desktop]: /Invision/Desktop-1920px.png "Screen Size 1920px"
 [laptop]: /Invision/Laptop-1366px.png "Screen Size 1366px"
-[tablet]: /Invision/Tablet-768px.png "Screen Size 768px"
 [mobile]: /Invision/Mobile-375px.png "Screen Size 375px"
 [styleguide]: /Invision/StyleGuide.png "Style Guide"
 
