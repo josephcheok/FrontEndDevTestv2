@@ -34,8 +34,11 @@ The following website was designed on InvisioApp. My task as a coder was to make
 ## Techniques Used
 
 1. The general layout of this website is done through CSS grid, which provides for easy manipulation and placement of website elements.
+
 2. Font sizes are calculated with min max values based on viewport width.
+
 3. Percentages are used for sizing instead of pixels to have the button and images scale based on size of container/grid.
+
 4. Plus and mail icons are svg instead of png, which scales better with no reduction in clarity.
 
 **Note:** For the purpose of responsive testing, I have introduced blank screen for screen sizes below 320px and above 1921px as they are beyond the scope.
