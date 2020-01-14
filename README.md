@@ -14,11 +14,11 @@ The following website was designed on InvisioApp. My task as a coder was to make
 
 ### Tablet (768px)
 
-<img src="Invision/Tablet-768px.png" width="350">
+<img src="Invision/Tablet-768px.png" width="500">
 
 ### Mobile (375px)
 
-<img src="Invision/Mobile-375px.png" width="200">
+<img src="Invision/Mobile-375px.png" width="300">
 
 ### Style Guide
 
