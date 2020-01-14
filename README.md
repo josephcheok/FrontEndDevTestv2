@@ -48,4 +48,8 @@ https://github.com/josephcheok/FrontEndDevTestv2
 
 2. Because vw calc and pecentages are used on sizes instead of hard coded pixels, the website is more scalable.
 
-3. The code is clean and maintainable with minimal code redundancy as all shared styles across different device width are located at the top of the css and styles affected by screen width are mentioned at the different media queries.
+3. The code is clean and maintainable. Minimal code redundancy as
+
+- All shared styles across different device width are located at the top of the css
+
+- Only styles affected by screen width are mentioned at the different media queries.
