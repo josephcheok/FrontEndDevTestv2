@@ -14,11 +14,14 @@ The following website was designed on InvisioApp. My task as a coder was to make
 
 ### Tablet (768px)
 
+<p align="center">
 <img src="Invision/Tablet-768px.png" width="500" margin-left="200">
+</p>
 
 ### Mobile (375px)
 
-<img src="Invision/Mobile-375px.png" width="300" margin-left="200">
+<p align="center">
+<img src="Invision/Mobile-375px.png" width="300">
 
 ### Style Guide
 
@@ -26,7 +29,6 @@ The following website was designed on InvisioApp. My task as a coder was to make
 
 [desktop]: /Invision/Desktop-1920px.png "Screen Size 1920px"
 [laptop]: /Invision/Laptop-1366px.png "Screen Size 1366px"
-[mobile]: /Invision/Mobile-375px.png "Screen Size 375px"
 [styleguide]: /Invision/StyleGuide.png "Style Guide"
 
 ## Techniques Used
